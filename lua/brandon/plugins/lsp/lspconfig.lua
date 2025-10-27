@@ -79,7 +79,6 @@ return {
 
 		-- setup mason-lspconfig
 		mason_lspconfig.setup({
-			ensure_installed = { "lua_ls", "svelte", "graphql", "emmet_ls" },
 			automatic_installation = true,
 			automatic_setup = true, -- NEW for v2+
 		})
